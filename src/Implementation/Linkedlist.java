@@ -110,6 +110,9 @@ public class  Linkedlist {
     }
 
     public int removeatindex(int k) throws Exception {
+        if(k<0){
+            throw new Exception("Index out of bounds");
+        }
         if (k == 0) {
             return removefirst();
         } else if (k == size - 1) {
