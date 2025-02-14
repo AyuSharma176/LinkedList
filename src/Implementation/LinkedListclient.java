@@ -3,24 +3,13 @@ package Implementation;
 public class LinkedListclient {
     public static void main(String[] args) throws Exception {
         Linkedlist list = new Linkedlist();
-        list.addfirst(10);
-        list.addfirst(20);
-        list.addfirst(30);
-
+        list.addfirst(1);
+        list.addfirst(2);
+        list.addfirst(3);
+        list.addfirst(4);
         list.display();
-        list.addlast(40);
+        list.addlast(0);
         list.display();
-        list.addatindex(88 , 2);
-        list.display();
-        System.out.println(list.Getatindex(2));
-        System.out.println(list.getfirst());
-        System.out.println(list.getlast());
-        list.removefirst();
-        list.display();
-        list.removelast();
-        list.display();
-        list.removeatindex(1);
-        list.display();
-        System.out.println();
+        System.out.println(list.Getatindex(0));
     }
 }

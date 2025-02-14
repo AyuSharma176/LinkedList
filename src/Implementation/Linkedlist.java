@@ -8,7 +8,7 @@ public class  Linkedlist {
 
     private Node head;// 1st node address yaad krega every LinkedList
     private Node tail;// last node address yaad krega every LinkedList
-    private int size;// total number of Node in LinkedList
+    private int size=0;// total number of Node in LinkedList
 
     //o(1)
     public void addfirst(int item) {
