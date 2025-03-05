@@ -12,7 +12,7 @@ public class remove_duplicates {
 //            else{
 //                h1=h1.next;
 //            }
-//        }
+////        }
 //        return head;
 //    }
 }
